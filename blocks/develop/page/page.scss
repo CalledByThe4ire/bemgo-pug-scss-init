@@ -1,0 +1,12 @@
+.page {
+    display: flex;
+    flex-flow: row wrap;
+    color: $body-color;
+    font-family: $font-family-base;
+    background-color: $body-bg;
+
+    &__fluid-container {
+      @include make-container();
+      display: block;
+    }
+  }
